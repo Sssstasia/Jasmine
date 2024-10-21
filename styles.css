@@ -287,6 +287,7 @@ a:link {
     overflow: hidden;
     width: 275px;
     height: 410px;
+
 }
 
 .flower-card:hover {
@@ -301,25 +302,29 @@ a:link {
 }
 
 .flower-card p {
-
+    width: 70px;
     text-align: center;
+
+    left: 100px;
     font-size: 0.9rem;
     margin: 5;
     background-color: #849e7681;
+    position: relative;
 
 }
 
 .flower-card h2 {
     margin: 2px;
+    font-size: 1.4rem;
     text-align: center;
     font-family: Verdana, Tahoma, Geneva, sans-serif;
-    font-weight: 500;
+    font-weight: 200;
 
 }
 
 .flower-card h3 {
     margin: 2px;
-    text-align: center;
+
     font-family: Verdana, Tahoma, Geneva, sans-serif;
     font-weight: 500;
     font-size: 0.9rem;
@@ -347,8 +352,184 @@ a:link {
 
 }
 
+/*card overlay*/
 
 
+
+.week-special {
+    width: 1210px;
+    max-width: 1210px;
+
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.week-special h1 {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+
+.card-overlay {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card-overlay img {
+    object-fit: cover;
+    width: 380px;
+    height: 450px;
+}
+
+.zoomin {
+    padding-right: 40px;
+}
+
+
+
+.card-info h1 {
+    margin: 0;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+}
+
+.card-info h2 {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.card-info p {
+    padding-bottom: 10px;
+}
+
+.description {
+    color: #849E76;
+}
+
+
+.size-button:hover {
+    cursor: pointer;
+}
+
+.size-button.black {
+    border-color: #000000;
+    color: #000000;
+}
+
+.size-button {
+    font-size: 1.2rem;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    border: 1px solid #849E76;
+    color: #849E76;
+    background: none;
+    height: 45px;
+    width: 45px;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+
+
+
+.order-now {
+    font-size: 1.6rem;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    border-style: 1px solid;
+    border-color: #849E76;
+    color: #fafafa;
+    background-color: #849E76;
+    height: 60px;
+    width: 380px;
+    margin-top: 52px;
+    transition: ease-out 0.3s, color 0.3s;
+}
+
+.order-now:hover {
+    cursor: pointer;
+}
+
+.order-now.pressed {
+    background-color: #617456;
+    border-color: #617456;
+    color: #fafafa;
+    transition: ease-out 0.3s, color 0.3s;
+}
+
+/* overlay finish */
+
+.prom {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-weight: 400;
+    padding-left: 160px;
+    padding-top: 30px;
+}
+
+.promotions {
+    padding-left: 160px;
+    display: grid;
+    grid-template-columns: 590px 590px;
+    column-gap: 10px;
+}
+
+.prom-card {
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    max-height: 230px;
+    overflow: hidden;
+}
+
+.prom-card p {
+    color: #849E76;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.prom-card h3 {
+    height: 90px;
+    color: #000000;
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.show-more2 {
+    position: relative;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-family: Verdana, sans-serif;
+    font-weight: 500;
+
+    margin-left: 30px;
+
+}
+
+.prom-info {
+    position: relative;
+}
+
+.show-more2:hover {
+    cursor: pointer;
+}
+
+.prom-card img {
+
+
+    object-fit: cover;
+    width: 400px;
+
+}
 
 /* start of bottom bit */
 
